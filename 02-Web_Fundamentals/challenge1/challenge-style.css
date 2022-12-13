@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+}
+
+#links{
+    width: 400px;
+    height: 50px;
+}
+
+.header a {
+    height: 50px;
+    color: white;
+    margin: 35px;
+  }
+
+
+.panel{
+    width: 300px;
+    height: auto;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    
+}
