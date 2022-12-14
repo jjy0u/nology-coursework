@@ -10,16 +10,27 @@ nav{
     color: white;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     justify-content: space-between;
     text-decoration: none;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
 #logo{
     width: 200px;
-    height: 50px;
-    text-align: center;
+    height: 100%;
     background-color: green;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#logo a {
+    padding: 10px 50px;
 }
 
 #links{
@@ -27,15 +38,40 @@ nav{
     height: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .panel{
-    width: 300px;
-    height: auto;
+    width: 55vw;
+    height: 20vh;
     border: 3px solid black;
-    padding: 10px;
+    padding: 20px;
+    margin: 10px;
     background-color: white;
     color: black;
+}
+
+#left-panel{
+    height: 100%;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#right-panel{
+    width: 45vh;
+    height: 75vh;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: white;
+    color: black;
 }
