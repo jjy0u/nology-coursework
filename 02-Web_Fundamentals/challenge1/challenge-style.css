@@ -43,6 +43,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 main {
+    height: 85vh;
     padding: 20px 0;
     display: flex;
     flex-direction: row;
@@ -50,15 +51,18 @@ main {
 
 }
 
-.panel{
-    width: 55vw;
-    height: 20vh;
-    border: 3px solid black;
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    color: black;
+main h1, h2, h3, h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
+
+main li{
+    line-height: 30px;
+}
+
+main ul {
+    margin-left: 50px;
+  }
 
 #left-panel{
     height: 100%;
@@ -67,11 +71,28 @@ main {
     justify-content: space-between;
 }
 
-#right-panel{
-    width: 45vh;
-    height: 75vh;
+.panel{
+    width: 55vw;
+    height: 30vh;
     border: 3px solid black;
-    padding: 20px;
+    padding: 15px;
+    margin: 8px;
     background-color: white;
     color: black;
+}
+
+
+#right-panel{
+    width: 65vh;
+    height: 75.8vh;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 8px 0;
+    background-color: white;
+    color: black;
+}
+
+#right-panel p{
+    line-height: 23px;
+    text-align: justify;
 }
