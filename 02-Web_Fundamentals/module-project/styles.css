@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@700&family=Open+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@700;800&family=Open+Sans:wght@300;400;500;700;800&display=swap");
 /* colours */
 /* fonts */
 * {
@@ -49,4 +49,114 @@ nav #login-button {
   border-radius: 10px;
   margin-right: 50px;
   margin-top: 35px;
+}
+
+main h1 {
+  font-family: "Nunito", san-serif;
+  color: #1ab9f0;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+main h1 ::after {
+  content: "\a";
+  white-space: pre;
+}
+main #device-img {
+  height: auto;
+  width: 430px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+main h2 {
+  font-family: "Open Sans", san-serif;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+main h2 ::after {
+  content: "\a";
+  white-space: pre;
+}
+main h3 {
+  color: #1ab9f0;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+main p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 65px;
+}
+main p ::after {
+  content: "\a";
+  white-space: pre;
+}
+main .button {
+  color: white;
+  background-color: #394166;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  width: 360px;
+  height: 62px;
+  padding-top: 23px;
+  border: 2px solid #394166;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+main h4 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 115px;
+  margin-bottom: 10px;
+}
+main #penguin-imgs h5 {
+  font-size: 30px;
+  font-weight: 400;
+  width: 450px;
+  margin-top: 60px;
+}
+main #penguin-imgs h5 .bold {
+  font-weight: 700;
+}
+main #italics {
+  font-weight: 300;
+  font-style: italic;
+}
+main .penguin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 35px;
+}
+main .penguin #img1 {
+  width: 200px;
+  max-height: auto;
+}
+main .penguin #img2 {
+  width: 350px;
+  max-height: auto;
+}
+main .penguin #img3 {
+  width: 300px;
+  max-height: auto;
+}
+main .penguin #img4 {
+  width: 400px;
+  max-height: auto;
+  margin-right: 40px;
+  margin-top: 50px;
 }

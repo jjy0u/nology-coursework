@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@700&family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@700;800&family=Open+Sans:wght@300;400;500;700;800&display=swap');
 
 /* colours */
 $background-color: rgb(254,253,248);
@@ -64,4 +64,141 @@ nav{
         margin-top: 35px;
     }
 
+}
+
+main{
+
+    h1{
+        font-family: $font-display;
+        color: $secondary-color;
+
+        ::after{
+            content: "\a";
+            white-space: pre;
+        }
+
+        text-align: center;
+        font-size: 52px;
+        font-weight: 800;
+        margin-top: 40px;
+
+    }
+
+    #device-img{
+        height: auto;
+        width: 430px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    h2{
+        font-family: $font-body;
+
+        ::after{
+            content: "\a";
+            white-space: pre;
+        }
+
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 80px; 
+    }
+
+    h3{
+        color: $secondary-color;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 600;
+        margin-top: 70px;
+    }
+
+    p{
+        text-align: center;
+
+        ::after{
+            content: "\a";
+            white-space: pre;
+        }
+
+        font-size: 28px;
+        font-weight: 500;
+        margin-top: 65px;
+    }
+
+    .button{
+        color: white;
+        background-color: $primary-color;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 700;
+        width: 360px;
+        height: 62px;
+        padding-top: 23px;
+        border: 2px solid $primary-color;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+
+    h4{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 115px;
+        margin-bottom: 10px;
+
+    }
+
+    #penguin-imgs{
+        h5{
+            font-size: 30px;
+            font-weight: 400; 
+            .bold{
+            font-weight: 700;
+            }
+            width: 450px;
+            margin-top: 60px;
+        }
+    }
+
+    #italics{
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .penguin{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 35px;
+
+        #img1{
+            width: 200px;
+            max-height: auto;
+        }
+
+        #img2{
+            width: 350px;
+            max-height: auto;
+        }
+
+        #img3{
+            width: 300px;
+            max-height: auto;
+        }
+
+        #img4{
+            width: 400px;
+            max-height: auto;
+            margin-right: 40px;
+            margin-top: 50px;
+        }
+    }
 }
