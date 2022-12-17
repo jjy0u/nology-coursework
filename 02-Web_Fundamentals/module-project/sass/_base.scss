@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@700;800&family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+$background-color: rgb(254,253,248);
+$primary-color: rgb(57,65,102);
+$secondary-color: rgb(26,185,240);
+$footer-color: rgb(255,252,221);
+
+$font-logo: "Boogaloo", cursive;
+$font-body: "Open Sans", san-serif;
+$font-display: "Nunito", san-serif;
+
+* {
+    font-family: $font-body;
+    margin: 0;
+    padding: 0;
+    color: $primary-color;
+}
