@@ -1,0 +1,135 @@
+body {
+    width: 58vw;
+    border: 2px solid black;
+    background-color: $background-color
+}
+
+nav{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main{
+
+    h1{
+        font-family: $font-display;
+        color: $secondary-color;
+
+        ::after{
+            content: "\a";
+            white-space: pre;
+        }
+
+        text-align: center;
+        font-size: 52px;
+        font-weight: 800;
+        margin-top: 40px;
+
+    }
+
+    h2{
+        font-family: $font-body;
+
+        ::after{
+            content: "\a";
+            white-space: pre;
+        }
+
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 80px; 
+    }
+
+    h3{
+        color: $secondary-color;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 600;
+        margin-top: 70px;
+    }
+
+    p{
+        text-align: center;
+
+        ::after{
+            content: "\a";
+            white-space: pre;
+        }
+
+        font-size: 28px;
+        font-weight: 500;
+        margin-top: 65px;
+        margin-bottom: 100px;
+    }
+
+    h4{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 115px;
+        margin-bottom: 10px;
+
+    }
+
+    #penguin-imgs{
+        h5{
+            font-size: 30px;
+            font-weight: 400; 
+            .bold{
+            font-weight: 700;
+            }
+            width: 450px;
+            margin-top: 60px;
+        }
+    }
+    
+    .penguin{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 35px;
+    
+        #img1{
+            width: 200px;
+            max-height: auto;
+        }
+    
+        #img2{
+            width: 350px;
+            max-height: auto;
+        }
+    
+        #img3{
+            width: 300px;
+            max-height: auto;
+        }
+    
+        #img4{
+            width: 400px;
+            max-height: auto;
+            margin-right: 40px;
+            margin-top: 50px;
+        }
+    }
+
+}
+
+footer{
+    margin-top: 150px;
+    height: 330px;
+    width: 100%;
+    background-color: $footer-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .footer{
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: 500;
+    }
+}

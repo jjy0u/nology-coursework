@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@700;800&family=Open+Sans:wght@300;400;500;700;800&display=swap");
-/* colours */
-/* fonts */
 * {
   font-family: "Open Sans", san-serif;
   margin: 0;
@@ -8,35 +6,31 @@
   color: #394166;
 }
 
-body {
-  width: 58vw;
-  border: 2px solid black;
-  background-color: #fefdf8;
+#italics {
+  font-weight: 300;
+  font-style: italic;
 }
 
-nav {
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
 nav img {
   height: auto;
   max-width: 110px;
 }
-nav #logo {
+
+#logo {
   text-decoration: none;
   font-family: "Boogaloo", cursive;
   font-size: 90px;
   padding-left: 15px;
 }
-nav #img-logo {
+
+#img-logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 30px;
 }
-nav #login-button {
+
+#login-button {
   display: block;
   text-decoration: none;
   font-size: 28px;
@@ -51,6 +45,46 @@ nav #login-button {
   margin-top: 35px;
 }
 
+#device-img {
+  height: auto;
+  width: 430px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.button {
+  color: white;
+  background-color: #394166;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  width: 360px;
+  height: 62px;
+  padding-top: 23px;
+  border: 2px solid #394166;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+body {
+  width: 58vw;
+  border: 2px solid black;
+  background-color: #fefdf8;
+}
+
+nav {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 main h1 {
   font-family: "Nunito", san-serif;
   color: #1ab9f0;
@@ -62,14 +96,6 @@ main h1 {
 main h1 ::after {
   content: "\a";
   white-space: pre;
-}
-main #device-img {
-  height: auto;
-  width: 430px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
 }
 main h2 {
   font-family: "Open Sans", san-serif;
@@ -100,23 +126,6 @@ main p ::after {
   content: "\a";
   white-space: pre;
 }
-main .button {
-  color: white;
-  background-color: #394166;
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: 700;
-  width: 360px;
-  height: 62px;
-  padding-top: 23px;
-  border: 2px solid #394166;
-  border-radius: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-}
 main h4 {
   text-align: center;
   font-size: 38px;
@@ -132,10 +141,6 @@ main #penguin-imgs h5 {
 }
 main #penguin-imgs h5 .bold {
   font-weight: 700;
-}
-main #italics {
-  font-weight: 300;
-  font-style: italic;
 }
 main .penguin {
   display: flex;
