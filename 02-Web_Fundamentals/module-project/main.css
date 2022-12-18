@@ -45,6 +45,12 @@ nav img {
   margin-top: 35px;
 }
 
+#login-button:hover {
+  background-color: #394166;
+  color: white;
+  transition: delay 0.1em;
+}
+
 #device-img {
   height: auto;
   width: 430px;
@@ -70,6 +76,11 @@ nav img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
+}
+
+.button:hover {
+  filter: brightness(130%);
+  transition: delay 0.1em;
 }
 
 body {
