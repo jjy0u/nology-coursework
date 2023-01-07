@@ -44,4 +44,19 @@ const getLastName = (names = []) => {
 getLastName(["Charlie", "Rob", "Andy"]);
 getLastName(["Ash","Stu"]);
 
-//
+//function that returns true if all numbers of an array are positive
+const allNumbersPositive = (number = []) => {
+    let result = true
+
+    for (let index = 0; index < number.length; index++) {
+        if (number[index] < 0) { 
+            result =  false;
+            break;
+        }
+    }
+
+    console.log(result);
+}
+
+allNumbersPositive([2,4,5]);
+allNumbersPositive([-5,4,6]);
